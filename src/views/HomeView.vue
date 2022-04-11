@@ -1,12 +1,15 @@
 <template>
-  <div class="home">HOME</div>
+  <home-slider></home-slider>
 </template>
 
 <script>
 // @ is an alias to /src
+import HomeSlider from '@/components/HomeSlider'
 
 export default {
   name: 'HomeView',
-  components: {}
+  components: {
+		HomeSlider
+	}
 }
 </script>
