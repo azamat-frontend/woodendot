@@ -6,7 +6,7 @@
           <div class="logo">
             <router-link class="logo__link" :to="{ name: 'home' }">
               <i></i>
-              Woodendot
+              Tile House
               <span>Architecture</span>
             </router-link>
           </div>
